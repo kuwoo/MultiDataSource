@@ -1,0 +1,15 @@
+﻿spring:
+  datasource:
+    master: # 写账户
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/datasource?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=CTT
+      username: root
+      password: 123456
+    slave1: # 只读账户
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/datasource?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=CTT
+      username: root
+      password: 123456
+    slave2: # 更新账户
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/datasource?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=CTT
+      username: root
+      password: 123456
+
